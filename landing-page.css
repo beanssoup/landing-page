@@ -8,10 +8,42 @@ img {
 }
 
 li {
-    list-style-type: none;
+    list-style-type: none;  
 }
 
 ul {
     display: flex;
     gap: 20px;
+}
+
+.first {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.second, .secondtext{
+    display: flex;
+    gap: 12px;
+}
+
+.third {
+    
+}
+
+/* .fourth {
+    display: flex;
+
+} */
+
+.box {
+    display: flex;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
 }
